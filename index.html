@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ==============================
+       DEGISTIR: Sayfa başlığı & SEO
+  ================================= -->
+  <title>Pokemon Veteriner Kliniği – Beylikdüzü</title>
+  <meta name="description" content="Beylikdüzü'nde güvenilir veteriner kliniği. Köpek, kedi ve tüm evcil hayvanlarınız için profesyonel veteriner hizmetleri." />
+  <meta name="keywords" content="veteriner, beylikdüzü, evcil hayvan, kedi, köpek, veteriner kliniği, pokemon veteriner" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== WHATSAPP BUTTON ========== -->
+  <!-- DEGISTIR: href içindeki telefon numarası (başında ülke kodu: 90) -->
+  <a href="https://wa.me/905411145959" class="whatsapp-btn" target="_blank" aria-label="WhatsApp ile iletişim">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header id="header">
+    <nav class="navbar container">
+      <!-- DEGISTIR: Klinik adı ve logo -->
+      <a href="#" class="logo">
+        <img src="logo.png" alt="Pokemon Veteriner Kliniği" style="height:48px; width:auto;" />
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Ana Sayfa</a></li>
+        <li><a href="#services" class="nav-link">Hizmetler</a></li>
+        <li><a href="#about" class="nav-link">Hakkımızda</a></li>
+        <li><a href="#team" class="nav-link">Ekibimiz</a></li>
+        <li><a href="#gallery" class="nav-link">Galeri</a></li>
+        <li><a href="#contact" class="nav-link">İletişim</a></li>
+      </ul>
+
+      <!-- DEGISTIR: Telefon numarası -->
+      <a href="tel:05411145959" class="btn btn-primary nav-phone">
+        <i class="fas fa-phone"></i> 0541 114 59 59
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <!-- DEGISTIR: Başlık ve alt başlık -->
+        <p class="hero-tag"><i class="fas fa-shield-heart"></i> Güvenilir & Şefkatli Bakım</p>
+        <h1>Dostlarınız İçin<br /><span>En İyi Bakım</span></h1>
+        <p class="hero-desc">
+          Beylikdüzü'nün kalbinde, sevimli dostlarınızın sağlığı ve mutluluğu için
+          modern ekipmanlar ve uzman kadromuzla yanınızdayız.
+        </p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">Randevu Al</a>
+          <a href="#services" class="btn btn-outline">Hizmetlerimiz</a>
+        </div>
+        <!-- DEGISTIR: İstatistikler -->
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">2500<span>+</span></span>
+            <span class="stat-label">Mutlu Hasta</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">8<span>+</span></span>
+            <span class="stat-label">Yıl Deneyim</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Uzman Veteriner</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-img-card">
+          <img src="images/hero-vet.jpg" alt="Veteriner ve evcil hayvan"
+               onerror="this.src='https://placehold.co/520x420/e8f5f3/2E86AB?text=Veteriner+Kliniği'" />
+          <!-- Floating kartlar -->
+          <div class="float-card float-card-1">
+            <i class="fas fa-calendar-check"></i>
+            <div><strong>7/24</strong><span>Acil Hizmet</span></div>
+          </div>
+          <div class="float-card float-card-2">
+            <i class="fas fa-syringe"></i>
+            <div><strong>Aşı</strong><span>Takip Sistemi</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HIZLI BİLGİ BANDI ========== -->
+  <section class="info-band">
+    <div class="container info-band-grid">
+      <!-- DEGISTIR: Çalışma saatleri -->
+      <div class="info-item">
+        <i class="fas fa-clock"></i>
+        <div>
+          <strong>Çalışma Saatleri</strong>
+          <span>Pzt–Cmt: 09:30–21:30</span>
+          <span>Pazar: 12:00–18:00</span>
+        </div>
+      </div>
+      <!-- DEGISTIR: Adres -->
+      <div class="info-item">
+        <i class="fas fa-location-dot"></i>
+        <div>
+          <strong>Adresimiz</strong>
+          <span>Cumhuriyet, Nadir Sokağı No:1 D:14D</span>
+          <span>34515 Beylikdüzü/İstanbul</span>
+        </div>
+      </div>
+      <!-- DEGISTIR: Telefon -->
+      <div class="info-item">
+        <i class="fas fa-phone"></i>
+        <div>
+          <strong>Telefon</strong>
+          <span><a href="tel:05411145959">0541 114 59 59</a></span>
+          <span>Randevu için arayın</span>
+        </div>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-star"></i>
+        <div>
+          <strong>Google Puanı</strong>
+          <span>⭐⭐⭐⭐⭐ 4.9 / 5</span>
+          <span>200+ değerlendirme</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HİZMETLER ========== -->
+  <section id="services" class="section services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Ne Yapıyoruz?</p>
+        <!-- DEGISTIR: Bölüm başlığı -->
+        <h2>Sunduğumuz <span>Hizmetler</span></h2>
+        <p class="section-desc">Evcil dostlarınızın tüm sağlık ihtiyaçlarını tek çatı altında karşılıyoruz.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- DEGISTIR: Her kartın ikon, başlık ve açıklamasını değiştirebilirsiniz -->
+        <div class="service-card" data-aos>
+          <div class="service-icon" style="background:#e8f4fd;">
+            <i class="fas fa-stethoscope" style="color:#2E86AB;"></i>
+          </div>
+          <h3>Genel Muayene</h3>
+          <p>Düzenli sağlık kontrolleri ile dostlarınızın genel sağlık durumunu takip ediyoruz.</p>
+          <a href="#contact" class="service-link">Randevu Al <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos>
+          <div class="service-icon" style="background:#fff0e8;">
+            <i class="fas fa-syringe" style="color:#FF6B35;"></i>
+          </div>
+          <h3>Aşılama</h3>
+          <p>Kedi ve köpekleriniz için zorunlu ve koruyucu aşı uygulamaları yapıyoruz.</p>
+          <a href="#contact" class="service-link">Randevu Al <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos>
+          <div class="service-icon" style="background:#e8fdf0;">
+            <i class="fas fa-scissors" style="color:#28a745;"></i>
+          </div>
+          <h3>Tıbbi Tıraş & Bakım</h3>
+          <p>Profesyonel pet-grooming hizmetimizle dostlarınız hem sağlıklı hem de şık görünür.</p>
+          <a href="#contact" class="service-link">Randevu Al <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos>
+          <div class="service-icon" style="background:#fdf3e8;">
+            <i class="fas fa-x-ray" style="color:#e67e22;"></i>
+          </div>
+          <h3>Röntgen & Görüntüleme</h3>
+          <p>Dijital röntgen ve ultrason cihazlarımızla hızlı ve doğru tanı koyuyoruz.</p>
+          <a href="#contact" class="service-link">Randevu Al <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos>
+          <div class="service-icon" style="background:#f3e8fd;">
+            <i class="fas fa-tooth" style="color:#9b59b6;"></i>
+          </div>
+          <h3>Diş Bakımı</h3>
+          <p>Evcil hayvanların diş temizliği ve diş sağlığı muayenelerini gerçekleştiriyoruz.</p>
+          <a href="#contact" class="service-link">Randevu Al <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos>
+          <div class="service-icon" style="background:#fde8e8;">
+            <i class="fas fa-hospital" style="color:#e74c3c;"></i>
+          </div>
+          <h3>Acil Servis</h3>
+          <p>7/24 acil veteriner hizmetimizle en kritik anlarda yanınızdayız.</p>
+          <a href="#contact" class="service-link">Hemen Ara <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HAKKIMIZDA ========== -->
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div class="about-image">
+        <div class="about-img-wrap">
+          <img src="images/about-clinic.jpg" alt="Klinik içi"
+               onerror="this.src='https://placehold.co/540x480/e8f5f3/2E86AB?text=Kliniğimiz'" />
+          <!-- DEGISTIR: Yıl kuruluş -->
+          <div class="about-badge">
+            <span class="badge-num">2016</span>
+            <span class="badge-text">Yılından Beri</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <p class="section-tag">Biz Kimiz?</p>
+        <!-- DEGISTIR: Başlık -->
+        <h2>Hayvanları Sevmek<br /><span>Bir Yaşam Biçimi</span></h2>
+        <!-- DEGISTIR: Açıklama paragrafları -->
+        <p>
+          Pokemon Veteriner Kliniği olarak Beylikdüzü'nde
+          evcil hayvanlarınıza en kaliteli sağlık hizmetini sunmak için çalışıyoruz.
+          Modern ekipmanlarımız ve deneyimli ekibimizle, sevimli dostlarınızın sağlığını
+          korumak en büyük önceliğimizdir.
+        </p>
+        <p>
+          Köpek, kedi, kuş ve egzotik hayvanlar dahil her türlü evcil hayvan için
+          kapsamlı veteriner hizmetleri sunuyoruz. Her hayvanı kendi çocuğumuz gibi
+          sevgiyle muayene ediyoruz.
+        </p>
+
+        <ul class="about-features">
+          <li><i class="fas fa-check-circle"></i> Modern Tıbbi Ekipmanlar</li>
+          <li><i class="fas fa-check-circle"></i> Uzman Veteriner Kadrosu</li>
+          <li><i class="fas fa-check-circle"></i> 7/24 Acil Hizmet</li>
+          <li><i class="fas fa-check-circle"></i> Online Randevu Sistemi</li>
+          <li><i class="fas fa-check-circle"></i> Aşı Hatırlatma Servisi</li>
+          <li><i class="fas fa-check-circle"></i> Hijyenik & Steril Ortam</li>
+        </ul>
+
+        <a href="#contact" class="btn btn-primary">Bize Ulaşın</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EKİBİMİZ ========== -->
+  <section id="team" class="section team">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Profesyonel Ekip</p>
+        <!-- DEGISTIR: Başlık -->
+        <h2>Uzman <span>Veterinerlerimiz</span></h2>
+        <p class="section-desc">Deneyimli ve şefkatli ekibimiz, dostlarınıza en iyi bakımı sağlıyor.</p>
+      </div>
+
+      <div class="team-grid">
+        <!-- DEGISTIR: Her doktorun fotoğrafı, adı, unvanı ve özgeçmişi -->
+        <div class="team-card" data-aos>
+          <div class="team-img">
+            <img src="images/vet1.jpg" alt="Dr. Ayşe Kaya"
+                 onerror="this.src='https://placehold.co/300x320/e8f5f3/2E86AB?text=Dr.+Ayşe+Kaya'" />
+            <div class="team-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Dr. Ayşe Kaya</h3>
+            <span>Baş Veteriner Hekim</span>
+            <p>İstanbul Üniversitesi Veterinerlik mezunu. Küçük hayvan iç hastalıkları uzmanı. 10 yıl deneyim.</p>
+          </div>
+        </div>
+
+        <div class="team-card" data-aos>
+          <div class="team-img">
+            <img src="images/vet2.jpg" alt="Dr. Mehmet Demir"
+                 onerror="this.src='https://placehold.co/300x320/e8f4fd/2E86AB?text=Dr.+Mehmet+Demir'" />
+            <div class="team-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Dr. Mehmet Demir</h3>
+            <span>Veteriner Hekim – Cerrahi</span>
+            <p>Ankara Üniversitesi Veterinerlik mezunu. Ortopedi ve yumuşak doku cerrahisi uzmanı.</p>
+          </div>
+        </div>
+
+        <div class="team-card" data-aos>
+          <div class="team-img">
+            <img src="images/vet3.jpg" alt="Dr. Elif Şahin"
+                 onerror="this.src='https://placehold.co/300x320/fff0e8/FF6B35?text=Dr.+Elif+Şahin'" />
+            <div class="team-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Dr. Elif Şahin</h3>
+            <span>Veteriner Hekim – Dermatoloji</span>
+            <p>Uludağ Üniversitesi Veterinerlik mezunu. Deri hastalıkları ve alerji konularında uzman.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERİ ========== -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Bizden Kareler</p>
+        <h2>Klinik <span>Galerimiz</span></h2>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- DEGISTIR: Her resmi klinik fotoğrafları ile değiştirin -->
+        <div class="gallery-item gallery-item-large">
+          <img src="images/gallery1.jpg" alt="Klinik"
+               onerror="this.src='https://placehold.co/600x400/e8f5f3/2E86AB?text=Kliniğimiz'" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery2.jpg" alt="Muayene"
+               onerror="this.src='https://placehold.co/300x250/e8f4fd/2E86AB?text=Muayene'" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery3.jpg" alt="Aşılama"
+               onerror="this.src='https://placehold.co/300x250/fff0e8/FF6B35?text=Aşılama'" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery4.jpg" alt="Operasyon"
+               onerror="this.src='https://placehold.co/300x250/f3e8fd/9b59b6?text=Operasyon'" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery5.jpg" alt="Grooming"
+               onerror="this.src='https://placehold.co/300x250/e8fdf0/28a745?text=Grooming'" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MÜŞTERİ YORUMLARI ========== -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Müşterilerimiz Ne Diyor?</p>
+        <h2>Mutlu <span>Evcil Hayvan Sahipleri</span></h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- DEGISTIR: Yorumları gerçek müşteri yorumlarıyla değiştirin -->
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Kedim Pamuk'un ameliyatı için çok endişeliydim. Dr. Ayşe Hanım hem beni hem de Pamuk'u çok sakinleştirdi. Harika bir klinik, kesinlikle tavsiye ediyorum!"</p>
+          <div class="testimonial-author">
+            <img src="https://placehold.co/48x48/e8f5f3/2E86AB?text=SY" alt="Selin Y." />
+            <div><strong>Selin Yılmaz</strong><span>Kedi Sahibi</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Köpeğimiz için acil ihtiyacımız olduğunda hemen ulaşabildik. Gece saatinde bile ilgilendiler. Gerçekten 7/24 hizmet veriyorlar, teşekkürler!"</p>
+          <div class="testimonial-author">
+            <img src="https://placehold.co/48x48/e8f4fd/2E86AB?text=AK" alt="Ali K." />
+            <div><strong>Ali Kılıç</strong><span>Köpek Sahibi</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Aşı takip mesajları atıyorlar, randevu hatırlatıyorlar. Bu kadar düzenli ve şefkatli bir klinik bulmak çok zor. Beylikdüzü'nün en iyisi burada!"</p>
+          <div class="testimonial-author">
+            <img src="https://placehold.co/48x48/fff0e8/FF6B35?text=MB" alt="Merve B." />
+            <div><strong>Merve Başaran</strong><span>Kedi & Köpek Sahibi</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== İLETİŞİM ========== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Bize Ulaşın</p>
+        <h2>Randevu Al veya <span>İletişime Geç</span></h2>
+        <p class="section-desc">Sorularınız veya randevu talebiniz için formu doldurun, en kısa sürede dönelim.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Sol: Bilgiler + Harita -->
+        <div class="contact-info">
+          <div class="contact-info-cards">
+            <!-- DEGISTIR: Adres, telefon, e-posta, çalışma saatleri -->
+            <div class="contact-info-item">
+              <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+              <div>
+                <strong>Adres</strong>
+                <span>Cumhuriyet, Nadir Sokağı No:1 D:14D</span>
+                <span>34515 Beylikdüzü/İstanbul</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <strong>Telefon</strong>
+                <span><a href="tel:05411145959">0541 114 59 59</a></span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <strong>Çalışma Saatleri</strong>
+                <span>Pzt–Cmt: 09:30–21:30</span>
+                <span>Pazar: 12:00–18:00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- DEGISTIR: Google Maps embed URL'sini gerçek adresle değiştirin -->
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.2!2d28.6435!3d41.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBeylikd%C3%BCz%C3%BC!5e0!3m2!1str!2str!4v1620000000000!5m2!1str!2str"
+              width="100%" height="220" style="border:0; border-radius:12px;" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="Konum Haritası">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Sağ: İletişim formu -->
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Adınız Soyadınız *</label>
+              <input type="text" id="name" name="name" placeholder="Örn: Ahmet Yılmaz" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefon *</label>
+              <input type="tel" id="phone" name="phone" placeholder="05xx xxx xx xx" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">E-posta</label>
+            <input type="email" id="email" name="email" placeholder="ornek@mail.com" />
+          </div>
+          <!-- DEGISTIR: Hayvan türü seçeneklerini ihtiyaca göre düzenleyin -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="pet-type">Hayvan Türü</label>
+              <select id="pet-type" name="pet-type">
+                <option value="">Seçiniz</option>
+                <option value="kedi">Kedi</option>
+                <option value="kopek">Köpek</option>
+                <option value="kus">Kuş</option>
+                <option value="kemirgen">Kemirgen</option>
+                <option value="egzotik">Egzotik</option>
+                <option value="diger">Diğer</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="service">Hizmet Türü</label>
+              <select id="service" name="service">
+                <option value="">Seçiniz</option>
+                <option value="muayene">Genel Muayene</option>
+                <option value="asi">Aşılama</option>
+                <option value="cerrahi">Cerrahi</option>
+                <option value="grooming">Grooming</option>
+                <option value="acil">Acil</option>
+                <option value="diger">Diğer</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Mesajınız</label>
+            <textarea id="message" name="message" rows="4" placeholder="Evcil hayvanınız hakkında kısa bilgi verin..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Randevu Talebi Gönder
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Talebiniz alındı! En kısa sürede sizi arayacağız.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <!-- DEGISTIR: Klinik adı, açıklama, sosyal medya linkleri -->
+      <div class="footer-brand">
+        <a href="#" class="logo logo-white">
+          <img src="logo.png" alt="Pokemon Veteriner Kliniği" style="height:48px; width:auto;" />
+        </a>
+        <p>Beylikdüzü'nde evcil dostlarınız için güvenilir ve şefkatli veteriner hizmetleri sunuyoruz.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://wa.me/905411145959" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Hızlı Bağlantılar</h4>
+        <ul>
+          <li><a href="#home">Ana Sayfa</a></li>
+          <li><a href="#services">Hizmetler</a></li>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#team">Ekibimiz</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Hizmetlerimiz</h4>
+        <ul>
+          <li><a href="#services">Genel Muayene</a></li>
+          <li><a href="#services">Aşılama</a></li>
+          <li><a href="#services">Cerrahi Operasyon</a></li>
+          <li><a href="#services">Diş Bakımı</a></li>
+          <li><a href="#services">Grooming</a></li>
+          <li><a href="#services">Acil Servis</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>İletişim</h4>
+        <ul>
+          <!-- DEGISTIR: Adres, telefon, e-posta -->
+          <li><i class="fas fa-location-dot"></i> Cumhuriyet, Nadir Sokağı No:1 D:14D, 34515 Beylikdüzü/İstanbul</li>
+          <li><i class="fas fa-phone"></i> <a href="tel:05411145959">0541 114 59 59</a></li>
+          <li><i class="fas fa-clock"></i> Pzt–Cmt: 09:30–21:30 / Pazar: 12:00–18:00</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <!-- DEGISTIR: Klinik adı ve yıl -->
+        <p>© 2024 Pokemon Veteriner Kliniği. Tüm hakları saklıdır.</p>
+        <p>Beylikdüzü / İstanbul</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox overlay -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+    <img src="" alt="" id="lightboxImg" />
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
